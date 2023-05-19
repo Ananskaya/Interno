@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post</title>
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="script/swiper-bundle.min.js"></script>
+    <script defer src="script/script.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <div class="header__menu">
+            <a href="index.html" class=" header__logo logo">
+                <img src="img/logo.svg" alt="logo" class="logo__img">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="index.html" class="header__link">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="project.html" class="header__link">Our Projects</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="blog.html" class="header__link">Blog</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="contact.html" class="header__link">Contact</a>
+                    </li>
+                </ul>
+                <button class="header__btn search" id="search__btn" onclick="openModal()">
+                    <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.8">
+                            <path d="M16.6837 17.1844L21.9994 22.5001M19.375 10.6875C19.375 15.7616 15.2616 19.875 10.1875 19.875C5.11338 19.875 1 15.7616 1 10.6875C1 5.61338 5.11338 1.5 10.1875 1.5C15.2616 1.5 19.375 5.61338 19.375 10.6875Z" stroke="#292F36" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg>
+                </button>
+            </nav>
+            <button class="burger-btn" onclick="openModalMenu()">
+                <svg width="70" height="70" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="35.2447" cy="35.0816" r="35.0816" fill="#F4F0EC"/>
+                    <line x1="20" y1="34" x2="51" y2="34" stroke="#292F36" stroke-width="2"/>
+                    <line x1="20" y1="25" x2="51" y2="25" stroke="#292F36" stroke-width="2"/>
+                    <line x1="20" y1="43" x2="51" y2="43" stroke="#292F36" stroke-width="2"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="thumb thumb--post">
+        <img src="img/post.jpg" alt="blog" class="thumb__img">
+        <div class="thumb__info">
+            <h2 class="thumb__title">Articles & News</h2>
+            <ul class="thumb__list">
+                <li class="thumb__item">
+                    <a href="index.html" class="thumb__link">Home</a>
+                </li>
+                <li class="thumb__item">
+                    <p class="thumb__text"> / Blog</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="page">
+        <div class="container page__container">
+            <div class="page__content">
+                <article class="post">
+                    <header class="post__header">
+                        <h1>Let’s Get Solution for Building Construction Work</h1>
+                    </header>
+                    <div class="post__thumb">
+                        <img src="img/photopost.jpg" alt="post-26-12-2022" class="post__img">
+                    </div>
+                    <span class="post__date">26 December,2022 </span>
+                    <div class="post-content">
+                        <p> Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.</p>
+                        <p>Embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                        <blockquote>The details are not the details. They make the design.</blockquote>
+                        <h2>Design sprints are great</h2>
+                        <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        <ol>
+                            <li>Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</li>
+                            <li>Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</li>
+                            <li>Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</li>
+                        </ol>
+                        <figure>
+                            <img src="img/photopost1.jpg" alt="pic">
+                        </figure>
+                    </div>
+                </article>
+                <div class="feedback">
+                    <hr>
+                    <div class="feedback-links">
+                        <div class="feedback-links__wrap">
+                            <h3 class="feedback-links__title">Tags</h3>
+                            <ul class="feedback-links__list widget-tags__list">
+                                <li class="feedback-links__item widget-tags__item">
+                                    <a href="" class="feedback-links__link widget-tags__link">Kitchen</a>
+                                </li>
+                                <li class="feedback-links__item widget-tags__item">
+                                    <a href="" class="feedback-links__link widget-tags__link">Bedroom</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="feedback-links__wrap social">
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.18359 10.875L9.67578 7.64062H6.54688V5.53125C6.54688 4.61719 6.96875 3.77344 8.375 3.77344H9.81641V0.996094C9.81641 0.996094 8.51562 0.75 7.28516 0.75C4.71875 0.75 3.03125 2.33203 3.03125 5.14453V7.64062H0.148438V10.875H3.03125V18.75H6.54688V10.875H9.18359Z" fill="#292F36"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.1367 4.09375C16.8398 3.56641 17.4727 2.93359 17.9648 2.19531C17.332 2.47656 16.5938 2.6875 15.8555 2.75781C16.6289 2.30078 17.1914 1.59766 17.4727 0.71875C16.7695 1.14062 15.9609 1.45703 15.1523 1.63281C14.4492 0.894531 13.5 0.472656 12.4453 0.472656C10.4062 0.472656 8.75391 2.125 8.75391 4.16406C8.75391 4.44531 8.78906 4.72656 8.85938 5.00781C5.80078 4.83203 3.05859 3.35547 1.23047 1.14062C0.914062 1.66797 0.738281 2.30078 0.738281 3.00391C0.738281 4.26953 1.37109 5.39453 2.39062 6.0625C1.79297 6.02734 1.19531 5.88672 0.703125 5.60547V5.64062C0.703125 7.43359 1.96875 8.91016 3.65625 9.26172C3.375 9.33203 3.02344 9.40234 2.70703 9.40234C2.46094 9.40234 2.25 9.36719 2.00391 9.33203C2.46094 10.8086 3.83203 11.8633 5.44922 11.8984C4.18359 12.8828 2.60156 13.4805 0.878906 13.4805C0.5625 13.4805 0.28125 13.4453 0 13.4102C1.61719 14.4648 3.55078 15.0625 5.66016 15.0625C12.4453 15.0625 16.1367 9.47266 16.1367 4.58594C16.1367 4.41016 16.1367 4.26953 16.1367 4.09375Z" fill="#292F36"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.64062 16.5V5.98828H0.371094V16.5H3.64062ZM1.98828 4.58203C3.04297 4.58203 3.88672 3.70312 3.88672 2.64844C3.88672 1.62891 3.04297 0.785156 1.98828 0.785156C0.96875 0.785156 0.125 1.62891 0.125 2.64844C0.125 3.70312 0.96875 4.58203 1.98828 4.58203ZM15.8398 16.5H15.875V10.7344C15.875 7.92188 15.2422 5.74219 11.9375 5.74219C10.3555 5.74219 9.30078 6.62109 8.84375 7.42969H8.80859V5.98828H5.67969V16.5H8.94922V11.2969C8.94922 9.92578 9.19531 8.625 10.8828 8.625C12.5703 8.625 12.6055 10.1719 12.6055 11.4023V16.5H15.8398Z" fill="#292F36"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.5 4.60742C6.125 4.60742 4.23242 6.53711 4.23242 8.875C4.23242 11.25 6.125 13.1426 8.5 13.1426C10.8379 13.1426 12.7676 11.25 12.7676 8.875C12.7676 6.53711 10.8379 4.60742 8.5 4.60742ZM8.5 11.6582C6.97852 11.6582 5.7168 10.4336 5.7168 8.875C5.7168 7.35352 6.94141 6.12891 8.5 6.12891C10.0215 6.12891 11.2461 7.35352 11.2461 8.875C11.2461 10.4336 10.0215 11.6582 8.5 11.6582ZM13.918 4.45898C13.918 3.90234 13.4727 3.45703 12.916 3.45703C12.3594 3.45703 11.9141 3.90234 11.9141 4.45898C11.9141 5.01562 12.3594 5.46094 12.916 5.46094C13.4727 5.46094 13.918 5.01562 13.918 4.45898ZM16.7383 5.46094C16.6641 4.125 16.3672 2.9375 15.4023 1.97266C14.4375 1.00781 13.25 0.710938 11.9141 0.636719C10.541 0.5625 6.42188 0.5625 5.04883 0.636719C3.71289 0.710938 2.5625 1.00781 1.56055 1.97266C0.595703 2.9375 0.298828 4.125 0.224609 5.46094C0.150391 6.83398 0.150391 10.9531 0.224609 12.3262C0.298828 13.6621 0.595703 14.8125 1.56055 15.8145C2.5625 16.7793 3.71289 17.0762 5.04883 17.1504C6.42188 17.2246 10.541 17.2246 11.9141 17.1504C13.25 17.0762 14.4375 16.7793 15.4023 15.8145C16.3672 14.8125 16.6641 13.6621 16.7383 12.3262C16.8125 10.9531 16.8125 6.83398 16.7383 5.46094ZM14.957 13.7734C14.6973 14.5156 14.1035 15.0723 13.3984 15.3691C12.2852 15.8145 9.6875 15.7031 8.5 15.7031C7.27539 15.7031 4.67773 15.8145 3.60156 15.3691C2.85938 15.0723 2.30273 14.5156 2.00586 13.7734C1.56055 12.6973 1.67188 10.0996 1.67188 8.875C1.67188 7.6875 1.56055 5.08984 2.00586 3.97656C2.30273 3.27148 2.85938 2.71484 3.60156 2.41797C4.67773 1.97266 7.27539 2.08398 8.5 2.08398C9.6875 2.08398 12.2852 1.97266 13.3984 2.41797C14.1035 2.67773 14.6602 3.27148 14.957 3.97656C15.4023 5.08984 15.291 7.6875 15.291 8.875C15.291 10.0996 15.4023 12.6973 14.957 13.7734Z" fill="#292F36"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="feedback-reply">
+                        <h3 class="feedback-reply__title">Leave a Reply</h3>
+                        <form class="feedback-reply__form">
+                            <input type="text" class="feedback-reply__input feedback-reply__input--name" placeholder="Name">
+                            <input type="email" class="feedback-reply__input feedback-reply__input--email" placeholder="Email">
+                            <input type="text" class="feedback-reply__input feedback-reply__input--site" placeholder="Website">
+                            <input type="tel" class="feedback-reply__input feedback-reply__input--tel" placeholder="Phone">
+                            <textarea class="feedback-reply__input feedback-reply__textarea" placeholder="Hello Iam Interested in.."></textarea>
+                            <input type="checkbox" name="save" id="save" class="feedback-reply__input feedback-reply__input--check">
+                            <label for="save" class="feedback-reply__label">
+                                Save my name, email, and website in this browser for the next time I comment.
+                            </label>
+                            <button type="submit" class="feedback-reply__btn">Send Now
+                                <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 8.43542L15.7232 8.29857M10.6182 1.91138L17.1412 8.43436L10.4868 15.0887" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <div class="widget widget-search">
+                        <div class="widget-search__area">
+                            <input type="text" class="widget-search__input" placeholder="Search">
+                            <button type="submit" class="widget-search__btn">
+                                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M26.5197 24.2898L20.4143 18.1691C21.8842 16.2073 22.6777 13.8195 22.675 11.3659C22.675 5.09879 17.589 0 11.3375 0C5.08605 0 0 5.09879 0 11.3659C0 17.633 5.08605 22.7318 11.3375 22.7318C13.7849 22.7345 16.1668 21.939 18.1237 20.4654L24.2291 26.5862C24.5382 26.8631 24.9413 27.011 25.3556 26.9994C25.77 26.9877 26.1642 26.8175 26.4574 26.5237C26.7505 26.2298 26.9203 25.8346 26.9319 25.4192C26.9435 25.0038 26.796 24.5997 26.5197 24.2898ZM3.23929 11.3659C3.23929 9.76023 3.71424 8.1906 4.60408 6.85552C5.49393 5.52043 6.7587 4.47986 8.23845 3.86539C9.71821 3.25092 11.3465 3.09015 12.9174 3.4034C14.4883 3.71666 15.9313 4.48987 17.0638 5.62526C18.1964 6.76066 18.9676 8.20724 19.2801 9.78208C19.5926 11.3569 19.4322 12.9893 18.8193 14.4727C18.2063 15.9562 17.1684 17.2241 15.8366 18.1162C14.5049 19.0083 12.9392 19.4844 11.3375 19.4844C9.19052 19.4818 7.1322 18.6257 5.61405 17.1037C4.09589 15.5818 3.24186 13.5183 3.23929 11.3659Z" fill="#CDA274"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="widget widget-latest">
+                        <h4 class="widget__title">Latest News</h4>
+                        <div class="post-recent">
+                            <article class="post-recent__article">
+                                <h5 class="post-recent__title">
+                                    <a href="#" class="post-recent__link">We Focus On Comfort And Gorgeous</a>
+                                </h5>
+                                <p class="post-recent__date">06/02/2020</p>
+                            </article>
+                            <article class="post-recent__article">
+                                <h5 class="post-recent__title">
+                                    <a href="#" class="post-recent__link">We Focus On Comfort And Gorgeous</a>
+                                </h5>
+                                <p class="post-recent__date">06/02/2020</p>
+                            </article>
+                            <article class="post-recent__article">
+                                <h5 class="post-recent__title">
+                                    <a href="#" class="post-recent__link">We Focus On Comfort And Gorgeous</a>
+                                </h5>
+                                <p class="post-recent__date">06/02/2020</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="widget widget-category category">
+                        <h4 class="widget__title">Categories</h4>
+                        <ul class="category__list">
+                            <li class="category__item">
+                                <a href="" class="category__link">Decoration</a>
+                            </li>
+                            <li class="category__item">
+                                <a href="" class="category__link">Door Windows</a>
+                            </li>
+                            <li class="category__item">
+                                <a href="" class="category__link">Home Land</a>
+                            </li>
+                            <li class="category__item">
+                                <a href="" class="category__link">Roof Installation</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget widget-tags">
+                        <h4 class="widget__title">Tags</h4>
+                        <ul class="widget-tags__list">
+                            <li class="widget-tags__item">
+                                <a href="" class="widget-tags__link">Kitchen</a>
+                            </li>
+                            <li class="widget-tags__item">
+                                <a href="" class="widget-tags__link">Bedroom</a>
+                            </li>
+                            <li class="widget-tags__item">
+                                <a href="" class="widget-tags__link">Building</a>
+                            </li>
+                            <li class="widget-tags__item">
+                                <a href="" class="widget-tags__link">Architecture</a>
+                            </li>
+                            <li class="widget-tags__item">
+                                <a href="" class="widget-tags__link">Kitchen Planning</a>
+                            </li>
+                            <li class="widget-tags__item">
+                                <a href="" class="widget-tags__link">Bathroom</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="author">
+                        <div class="author__wrap">
+                            <div class="author__thumb">
+                                <img src="img/author.jpg" alt="John Smith" class="author__img">
+                            </div>
+                            <div class="author__descr">
+                                <h4 class="author__title">John Smith</h4>
+                                <span class="author__role">Author</span>
+                            </div>
+                        </div>
+                        <div class="author__text">
+                            Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrpobelie frandomised words which don't look even slightly believable.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__menu">
+            <a href="#" class=" header__logo logo">
+                <img src="img/logo.svg" alt="logo" class="logo__img">
+            </a>
+            <div class="footer__content">
+                <p class="footer__text">55 East Birchwood Ave. <br>Brooklyn, New York 11201</p>
+                <a href="mailto:contact@interno.com" class="footer__link">contact@interno.com</a>
+                <a href="tel:+71234567890" class="footer__link">(123) 456 - 7890</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="overlay" id="overlay">
+    <div class="modal-search">
+        <div class="container modal-search__container">
+            <div class="modal-search__content">
+                <label for="search-input" class="modal-search__label">
+                    <input class="modal-search__input" placeholder="Search" id="search-input">
+                </label>
+                <div class="modal-search__wrap">
+                    <button type="submit" class="modal-search__btn">
+                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26" r="25.5" stroke="#CDA274"/>
+                            <path d="M23.0571 32L29 25.3143L23.0571 18.6286" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button type="button" class="modal-search__btn modal-search__btn--close" onclick="closeModal()">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_169_365)">
+                                <path d="M21.9783 1.38286L20.5715 -0.0222168L10.9548 9.57362L1.33939 -0.0222168L-0.0700684 1.38021L9.54663 10.9774L-0.0687413 20.5719L1.33674 21.9783L10.9548 12.3811L20.5701 21.977L21.9783 20.5745L12.3616 10.9774L21.9783 1.38286Z" fill="#292F36"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_169_365">
+                                    <rect width="22" height="22" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay" id="overlayMenu">
+    <div class="modal">
+        <div class="container modal__container">
+            <div class="modal__content">
+                <button type="button" class="modal__btn modal__btn--close" onclick="closeModalMenu()">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_169_365)">
+                            <path d="M21.9783 1.38286L20.5715 -0.0222168L10.9548 9.57362L1.33939 -0.0222168L-0.0700684 1.38021L9.54663 10.9774L-0.0687413 20.5719L1.33674 21.9783L10.9548 12.3811L20.5701 21.977L21.9783 20.5745L12.3616 10.9774L21.9783 1.38286Z"
+                                  fill="#292F36"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_169_365">
+                                <rect width="22" height="22" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+                <nav class="header__nav modal__nav">
+                    <ul class="header__list modal__list">
+                        <li class="header__item modal__item">
+                            <a href="index.html" class="header__link modal__link">Home</a>
+                        </li>
+                        <li class="header__item modal__item">
+                            <a href="project.html" class="header__link modal__link">Our Projects</a>
+                        </li>
+                        <li class="header__item modal__item">
+                            <a href="blog.html" class="header__link modal__link">Blog</a>
+                        </li>
+                        <li class="header__item modal__item">
+                            <a href="contact.html" class="header__link modal__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

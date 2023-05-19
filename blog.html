@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Blog</title>
+
+    <link href="css/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet">
+
+    <script defer src="script/swiper-bundle.min.js"></script>
+    <script defer src="script/script.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <div class="header__menu">
+            <a class=" header__logo logo" href="index.html">
+                <img alt="logo" class="logo__img" src="img/logo.svg">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="index.html">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="project.html">Our Projects</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <button class="header__btn search" id="search__btn" onclick="openModal()">
+                    <svg fill="none" height="24" viewBox="0 0 23 24" width="23" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.8">
+                            <path d="M16.6837 17.1844L21.9994 22.5001M19.375 10.6875C19.375 15.7616 15.2616 19.875 10.1875 19.875C5.11338 19.875 1 15.7616 1 10.6875C1 5.61338 5.11338 1.5 10.1875 1.5C15.2616 1.5 19.375 5.61338 19.375 10.6875Z"
+                                  stroke="#292F36" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                        </g>
+                    </svg>
+                </button>
+            </nav>
+            <button class="burger-btn" onclick="openModalMenu()">
+                <svg width="70" height="70" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="35.2447" cy="35.0816" r="35.0816" fill="#F4F0EC"/>
+                    <line x1="20" y1="34" x2="51" y2="34" stroke="#292F36" stroke-width="2"/>
+                    <line x1="20" y1="25" x2="51" y2="25" stroke="#292F36" stroke-width="2"/>
+                    <line x1="20" y1="43" x2="51" y2="43" stroke="#292F36" stroke-width="2"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+</header>
+<main class="main">
+    <section class="thumb thumb--blog">
+        <img alt="blog" class="thumb__img" src="img/blog.jpg">
+        <div class="thumb__info">
+            <h2 class="thumb__title">Articles & News</h2>
+            <ul class="thumb__list">
+                <li class="thumb__item">
+                    <a class="thumb__link" href="index.html">Home</a>
+                </li>
+                <li class="thumb__item">
+                    <p class="thumb__text"> / Blog</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="blog">
+        <div class="container blog__container">
+            <section class="new">
+                <h2 class="new__title">Latest Post</h2>
+                <article class="new-article">
+                    <img alt="new post" class="new-article__img article__img" src="img/new-article.jpg">
+                    <div class="new-article__content">
+                        <h3 class="new-article__title">Low Cost Latest Invented Interior Designing Ideas</h3>
+                        <p class="new-article__text">
+                            Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis dignissim maximus.posuere
+                            in.Contrary to popular belief.
+                            <br><br>
+                            Lorem Ipsum is not simply random text. It has roots in a piece of classica.
+                        </p>
+                        <div class="new-article__info article__info">
+                            <span class="new-article__date article__date">26 December,2022 </span>
+                            <a class="new-article__more article__more" href="post.html">
+                                <svg fill="none" height="53" viewBox="0 0 52 53" width="52" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26.267" fill="#F4F0EC" r="26"/>
+                                    <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="#292F36" stroke-linecap="round"
+                                          stroke-linejoin="round" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="news">
+                <div class="container news__container">
+                    <h2 class="news__title">Articles & News</h2>
+                    <p class="news__text">It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.</p>
+                    <ul class="articles">
+                        <li class="articles__item article">
+                            <img src="img/article1.jpg" alt="article1" class="article__img">
+                            <div class="article__content">
+                                <span class="article__tag">Kitchan Design</span>
+                                <h3 class="article__title">
+                                    <a href="#" class="article__link">Let’s Get Solution For Building Construction Work</a>
+                                </h3>
+                                <div class="article__info">
+                                    <span class="article__date">26 December,2022 </span>
+                                    <a href="#" class="article__more">
+                                        <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26" cy="26.267" r="26" fill="#F4F0EC"/>
+                                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="articles__item article">
+                            <img src="img/article2.jpg" alt="article1" class="article__img">
+                            <div class="article__content">
+                                <span class="article__tag">Living Design</span>
+                                <h3 class="article__title">
+                                    <a href="#" class="article__link">Low Cost Latest Invented Interior Designing Ideas</a>
+                                </h3>
+                                <div class="article__info">
+                                    <span class="article__date">22 December,2022 </span>
+                                    <a href="#" class="article__more">
+                                        <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26" cy="26.267" r="26" fill="#F4F0EC"/>
+                                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="articles__item article">
+                            <img src="img/article3.jpg" alt="article1" class="article__img">
+                            <div class="article__content">
+                                <span class="article__tag">Interior Design</span>
+                                <h3 class="article__title">
+                                    <a href="#" class="article__link">Best For Any Office & Business Interior Solution</a>
+                                </h3>
+                                <div class="article__info">
+                                    <span class="article__date">25 December,2022 </span>
+                                    <a href="#" class="article__more">
+                                        <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26" cy="26.267" r="26" fill="#F4F0EC"/>
+                                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="articles__item article">
+                            <img src="img/article4.jpg" alt="article4" class="article__img">
+                            <div class="article__content">
+                                <span class="article__tag">Kitchan Design</span>
+                                <h3 class="article__title">
+                                    <a href="#" class="article__link">Let’s Get Solution For Building Construction Work</a>
+                                </h3>
+                                <div class="article__info">
+                                    <span class="article__date">26 December,2022 </span>
+                                    <a href="#" class="article__more">
+                                        <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26" cy="26.267" r="26" fill="#F4F0EC"/>
+                                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="articles__item article">
+                            <img src="img/article5.jpg" alt="article5" class="article__img">
+                            <div class="article__content">
+                                <span class="article__tag">Kitchan Design</span>
+                                <h3 class="article__title">
+                                    <a href="#" class="article__link">Let’s Get Solution For Building Construction Work</a>
+                                </h3>
+                                <div class="article__info">
+                                    <span class="article__date">26 December,2022 </span>
+                                    <a href="#" class="article__more">
+                                        <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26" cy="26.267" r="26" fill="#F4F0EC"/>
+                                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="articles__item article">
+                            <img src="img/article6.jpg" alt="article6" class="article__img">
+                            <div class="article__content">
+                                <span class="article__tag">Kitchan Design</span>
+                                <h3 class="article__title">
+                                    <a href="#" class="article__link">Let’s Get Solution For Building Construction Work</a>
+                                </h3>
+                                <div class="article__info">
+                                    <span class="article__date">26 December,2022 </span>
+                                    <a href="#" class="article__more">
+                                        <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26" cy="26.267" r="26" fill="#F4F0EC"/>
+                                            <path d="M23.771 32.9527L29.7139 26.267L23.771 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="news-pagination">
+                        <span class="news-pagination__span">01</span>
+                        <a href="#" class="news-pagination__link">02</a>
+                        <a href="#" class="news-pagination__link">03</a>
+                        <a href="#" class="news-pagination__link">
+                            <svg width="9" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.55714 15L7.5 8.31429L1.55714 1.62857" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</main>
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__menu">
+            <a class=" header__logo logo" href="#">
+                <img alt="logo" class="logo__img" src="img/logo.svg">
+            </a>
+            <div class="footer__content">
+                <p class="footer__text">55 East Birchwood Ave. <br>Brooklyn, New York 11201</p>
+                <a class="footer__link" href="mailto:contact@interno.com">contact@interno.com</a>
+                <a class="footer__link" href="tel:+71234567890">(123) 456 - 7890</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="overlay" id="overlay">
+    <div class="modal-search">
+        <div class="container modal-search__container">
+            <div class="modal-search__content">
+                <label for="search-input" class="modal-search__label">
+                    <input class="modal-search__input" placeholder="Search" id="search-input">
+                </label>
+                <div class="modal-search__wrap">
+                    <button type="submit" class="modal-search__btn">
+                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26" r="25.5" stroke="#CDA274"/>
+                            <path d="M23.0571 32L29 25.3143L23.0571 18.6286" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button type="button" class="modal-search__btn modal-search__btn--close" onclick="closeModal()">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_169_365)">
+                                <path d="M21.9783 1.38286L20.5715 -0.0222168L10.9548 9.57362L1.33939 -0.0222168L-0.0700684 1.38021L9.54663 10.9774L-0.0687413 20.5719L1.33674 21.9783L10.9548 12.3811L20.5701 21.977L21.9783 20.5745L12.3616 10.9774L21.9783 1.38286Z" fill="#292F36"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_169_365">
+                                    <rect width="22" height="22" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay" id="overlayMenu">
+    <div class="modal">
+        <div class="container modal__container">
+            <div class="modal__content">
+                <button type="button" class="modal__btn modal__btn--close" onclick="closeModalMenu()">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_169_365)">
+                            <path d="M21.9783 1.38286L20.5715 -0.0222168L10.9548 9.57362L1.33939 -0.0222168L-0.0700684 1.38021L9.54663 10.9774L-0.0687413 20.5719L1.33674 21.9783L10.9548 12.3811L20.5701 21.977L21.9783 20.5745L12.3616 10.9774L21.9783 1.38286Z"
+                                  fill="#292F36"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_169_365">
+                                <rect width="22" height="22" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+                <nav class="header__nav modal__nav">
+                    <ul class="header__list modal__list">
+                        <li class="header__item modal__item">
+                            <a href="index.html" class="header__link modal__link">Home</a>
+                        </li>
+                        <li class="header__item modal__item">
+                            <a href="project.html" class="header__link modal__link">Our Projects</a>
+                        </li>
+                        <li class="header__item modal__item">
+                            <a href="blog.html" class="header__link modal__link">Blog</a>
+                        </li>
+                        <li class="header__item modal__item">
+                            <a href="contact.html" class="header__link modal__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
